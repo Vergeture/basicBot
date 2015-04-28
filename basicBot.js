@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Vergeture/basicBot/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -181,11 +181,11 @@
     var basicBot = {
         version: "2.3.4",
         status: false,
-        name: "basicBot",
+        name: "Ethernel",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Vergeture/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
+        chatLink: "https://github.com/Vergeture/basicBot/blob/master/lang/langIndex.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -1748,11 +1748,11 @@
                     'gives you an enormous cookie. Poking it gives you more cookies. Weird.',
                     'gives you a fortune cookie. It reads "Why aren\'t you working on any projects?"',
                     'gives you a fortune cookie. It reads "Give that special someone a compliment"',
-                    'gives you a fortune cookie. It reads "Take a risk!"',
+                    'gives you a fortune cookie. It reads "You are so creepy !"',
                     'gives you a fortune cookie. It reads "Go outside."',
                     'gives you a fortune cookie. It reads "Don\'t forget to eat your veggies!"',
                     'gives you a fortune cookie. It reads "Do you even lift?"',
-                    'gives you a fortune cookie. It reads "m808 pls"',
+                    'gives you a fortune cookie. It reads "Ethernal watch you in your sleep"',
                     'gives you a fortune cookie. It reads "If you move your hips, you\'ll get all the ladies."',
                     'gives you a fortune cookie. It reads "I love you."',
                     'gives you a Golden Cookie. You can\'t eat it because it is made of gold. Dammit.',
