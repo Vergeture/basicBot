@@ -193,7 +193,7 @@
         settings: {
             botName: "Ethernel",
             language: "french",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
+            chatLink: "https://rawgit.com/Vergeture/basicBot/master/lang/fr.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
